@@ -1,4 +1,4 @@
-module.exports = function readdir(dir, ext,cb){
+module.exports = function readdir(dir, ext, cb){
     //console.log(process.argv);
     var path=require('path');
     var fs = require('fs');

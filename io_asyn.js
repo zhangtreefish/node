@@ -1,5 +1,6 @@
 var fs = require('fs')
-//console.log(process.argv);
+//
+
 
 fs.readFile(process.argv[2],'utf8', function cb(error, st) {
   if (error) {
